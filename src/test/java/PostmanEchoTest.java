@@ -10,7 +10,7 @@ void shouldCheckoutPostmanEcho() {
     given()
             .baseUri("https://postman-echo.com")
             .contentType("text/plain; charset=UTF-8")
-            .body("Погода сегодня, дождливая?") // отправляемые данные (заголовки и query можно выставлять аналогично)
+            .body("Погода сегодня, солнечно?") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
             .when()
             .post("/post")
